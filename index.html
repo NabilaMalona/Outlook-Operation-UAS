@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -6,9 +7,11 @@
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 
 </head>
+
 <body>
     <!-- Header -->
     <header class="navbar">
@@ -22,9 +25,9 @@
                 <li><a href="ujian-mandiri.html">Ujian Mandiri</a></li>
             </ul>
         </div>
-            <a href="index.html">
+        <a href="index.html">
             <img src="OutLook Logo.png" alt="Logo" style="height: 75px;">
-            </a>
+        </a>
         <div>
             <input type="checkbox" id="nav-Toggle" class="nav-Toggle">
             <label for="nav-Toggle" class="navToggleMenu">
@@ -34,7 +37,7 @@
             </label>
             <nav>
                 <ul class="nav-menu">
-                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="#index" class="active">Home</a></li>
                     <li><a href="#testimoni">Testimoni</a></li>
                     <li><a href="#faq">FAQ</a></li>
                     <li><a href="#tryout">Try Out</a></li>
@@ -51,16 +54,20 @@
     <!-- awal main -->
     <main>
         <!-- section 1: welcome -->
-        <section class="hero">
-            <div class="container">
+        <section class="hero" id="index">
+            <div class="hero-text">
                 <h1>Bikin cerdas beneran deh pokoknya</h1>
-                <p>Bimbingan Belajar Terbaik dan Terbesar Se-Indonesia <br> Gak cuma bantu berprestasi & lolos PTN, tapi juga ngajarin cara mikir yang bener. Biar cerdasnya gak cuma buat ujian, tapi kepake seumur hidup! Gas belajar sekarang!
+                <p>Bimbingan Belajar Terbaik dan Terbesar Se-Indonesia <br> Gak cuma bantu berprestasi & lolos PTN, tapi
+                    juga ngajarin cara mikir yang bener. Biar cerdasnya gak cuma buat ujian, tapi kepake seumur hidup!
+                    Gas belajar sekarang!
                 </p>
                 <div class="hero-button">
-                    <!-- Link cepat -->
                     <a href="SignUp.html" class="btn btn-primary">🚀 Daftar Gratis</a>
-                    <a href="Materi.html" class="btn btn-outline">🗂️ Lihat Semua Materi</a>
+                    <a href="Materi.html" class="btn btn-outline">📂 Lihat Semua Materi</a>
                 </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/foto2.jpg" alt="Siswa belajar bersama">
             </div>
         </section>
 
@@ -71,17 +78,12 @@
             <input type="radio" name="slide" id="s2">
             <input type="radio" name="slide" id="s3">
             <input type="radio" name="slide" id="s4">
-            <input type="radio" name="slide" id="s5">
-            <input type="radio" name="slide" id="s6">
-
             <!-- Slides -->
             <div class="slides">
-
-                <img src="images/img1.jpg">
-                <img src="images/img2.jpg">
-                <img src="images/img3.jpg">
-                <img src="images/img4.jpg">
-            
+                <img src="images/photo2.jpg">
+                <img src="images/photo1.jpg">
+                <img src="images/photo3.jpg">
+                <img src="images/photo4.jpg">
             </div>
 
             <!-- Dots -->
@@ -90,8 +92,6 @@
                 <label for="s2"></label>
                 <label for="s3"></label>
                 <label for="s4"></label>
-                <label for="s5"></label>
-                <label for="s6"></label>
             </div>
 
         </div>
@@ -101,39 +101,45 @@
         <!-- Section 2: Video & Modul -->
         <section class="section">
             <div class="container">
-                <h2>Materi Video & Latihan Soal</h2>
+                <h2 class="materi">Materi Video & Latihan Soal</h2>
                 <p class="section-desc">Penjelasan materi yang bikin kamu beneran ngerti, bukan sekadar hafal.<br>
 
-Plus, ribuan latihan soal, termasuk soal-soal tahun lalu, biar kamu siap tempur!.</p>
+                    Plus, ribuan latihan soal, termasuk soal-soal tahun lalu, biar kamu siap tempur!.</p>
                 <div class="grid-card">
                     <article class="card">
                         <h2>Oh moment!</h2>
-                        <p>Kamu gak cuma dikasih rumus, tapi diajak mikir bareng, menalar konsep step by step, sampe dapet, "Oh, moment".</p>
+                        <p>Kamu gak cuma dikasih rumus, tapi diajak mikir bareng, menalar konsep step by step, sampe
+                            dapet, "Oh, moment".</p>
                     </article>
                     <article class="card">
                         <h2>Gampang ngerti</h2>
-                        <p>Tutor beneran passionate & ngerti ilmunya. Mereka jelasin pake bahasa simple, bisa nyambungin antarkonsep & antarilmu, ngasih analogi & contoh sehari-hari.</p>
+                        <p>Tutor beneran passionate & ngerti ilmunya. Mereka jelasin pake bahasa simple, bisa nyambungin
+                            antarkonsep & antarilmu, ngasih analogi & contoh sehari-hari.</p>
                     </article>
                     <article class="card">
                         <h2>Santaaai</h2>
-                        <p>Belajarnya santai, kayak ngobrol sama temen atau kakak kelas. Nyaman, seru, tapi ilmunya tetep dapet!</p>
+                        <p>Belajarnya santai, kayak ngobrol sama temen atau kakak kelas. Nyaman, seru, tapi ilmunya
+                            tetep dapet!</p>
                     </article>
                 </div>
             </div>
         </section>
 
-                <!-- Section 3: Try Out -->
-        <section class="section">
+        <!-- Section 3: Try Out -->
+        <section class="section section-blue">
             <div class="container">
                 <h2>Latihan dari dasar banget? Atau Try Out? Ada!</h2>
                 <div class="grid-tryout">
-                    <article class="tryout">
+                    <article class="tryout-1">
                         <h2>Berlangganan</h2>
-                        <p>Kalo kamu belajar yang kompleks2 susah banget ngerti, ini ada fitur buat nguatin fundamental skills kayak Matematika Dasar, Literasi & Penalaran, Bahasa Inggris, & Sains Dasar biar otak makin tajem, Bukan cuma buat ujian, tapi juga buat hidup!</p>
+                        <p>Kalo kamu belajar yang kompleks2 susah banget ngerti, ini ada fitur buat nguatin fundamental
+                            skills kayak Matematika Dasar, Literasi & Penalaran, Bahasa Inggris, & Sains Dasar biar otak
+                            makin tajem, Bukan cuma buat ujian, tapi juga buat hidup!</p>
                     </article>
-                    <article class="tryout">
+                    <article class="tryout-2">
                         <h2>Try Out UTBK</h2>
-                        <p>Soal & sistem penilaian yang sesuai UTBK asli, pake penilaian IRT. Jadi lo gak cuma latihan, tapi juga tau perkembangan lo & strategi buat ningkatin skor.</p>
+                        <p>Soal & sistem penilaian yang sesuai UTBK asli, pake penilaian IRT. Jadi lo gak cuma latihan,
+                            tapi juga tau perkembangan lo & strategi buat ningkatin skor.</p>
                     </article>
                 </div>
             </div>
@@ -145,67 +151,169 @@ Plus, ribuan latihan soal, termasuk soal-soal tahun lalu, biar kamu siap tempur!
         <section class="section">
             <div class="container">
                 <h2>Kenapa mesti belajar di OutLook Operation?</h2>
-                <p class="section-desc">20 tahun, ribuan sukses story, puluhan ribu video materi dan ratusan ribu latihan soal!</p>
+                <p class="section-desc">20 tahun, ribuan sukses story, puluhan ribu video materi dan ratusan ribu
+                    latihan soal!</p>
                 <div class="grid-about">
                     <div class="about">
-                        <p>Sejak 2004, Zenius udah jadi partner belajar jutaan siswa di Indonesia dari berbagai latar belakang.</p>
+                        <p>Sejak 2004, Zenius udah jadi partner belajar jutaan siswa di Indonesia dari berbagai latar
+                            belakang.</p>
                     </div>
                     <div class="about">
-                        <p>Dari UI, ITB, UGM, dan kampus top lain di dalam dan luar negeri, alumni Zenius udah buktiin kalau belajar bener bisa bawa mereka ke mana aja.</p>
+                        <p>Dari UI, ITB, UGM, dan kampus top lain di dalam dan luar negeri, alumni Zenius udah buktiin
+                            kalau belajar bener bisa bawa mereka ke mana aja.</p>
                     </div>
                     <div class="about">
-                        <p>Total ada puluhan ribu video belajar yang tersedia, lengkap dengan ratusan ribu latihan soal & pembahasannya.</p>
-                    </div>              
+                        <p>Total ada puluhan ribu video belajar yang tersedia, lengkap dengan ratusan ribu latihan soal
+                            & pembahasannya.</p>
+                    </div>
                 </div>
             </div>
         </section>
 
-                <!-- section 4: Testimoni -->
+        <!-- section 4: Testimoni -->
         <section class="section" id="testimoni">
             <div class="container">
                 <h2>Yang udah coba, gak bisa berhenti belajar!</h2>
-                <p class="section-desc">Belajar bikin nagih? Kedengeran absurd kan? Tapi ini kata mereka yang udah ngerasain sendiri—sekali coba Zenius, susah berhenti! No kidding :p</p>
+                <p class="section-desc">Belajar bikin nagih? Kedengeran absurd kan? Tapi ini kata mereka yang udah
+                    ngerasain sendiri—sekali coba Zenius, susah berhenti! No kidding :p</p>
                 <div class="grid-testimoni">
                     <div class="testimoni">
                         <h3>Sultan Zahid</h3>
                         <p>Institut Teknologi Kalimantan - Sistem Informasi</p>
-                        <p>Zenius is one of the changer on how I look the knowledge in life. Mungkin semua hal yang sudah dipelajarin dari SD-SMA itu terasa berbeda setelah kenal sama Zenius. Lewat playlist Zen Learning, kita benar-benar diprogram ulang semua pengetahuan dan pelajaran yang diketahui. Dari situ finally tau, it's absolutely crucial to learn everything from the fundamental and systematically. Berharap kurikulum Zen bisa diterapkan ke seluruh sekolah, pasti banyak banget siswa yang akan melihat pelajaran menjadi lebih bermakna. Thank you so much Zen!</p>
+                        <p>Zenius is one of the changer on how I look the knowledge in life. Mungkin semua hal yang
+                            sudah dipelajarin dari SD-SMA itu terasa berbeda setelah kenal sama Zenius. Lewat playlist
+                            Zen Learning, kita benar-benar diprogram ulang semua pengetahuan dan pelajaran yang
+                            diketahui. Dari situ finally tau, it's absolutely crucial to learn everything from the
+                            fundamental and systematically. Berharap kurikulum Zen bisa diterapkan ke seluruh sekolah,
+                            pasti banyak banget siswa yang akan melihat pelajaran menjadi lebih bermakna. Thank you so
+                            much Zen!</p>
                     </div>
                     <div class="testimoni">
                         <h3>Rahmah Nuuru</h3>
                         <p>Universitas Padjajaran - Sastra Jepang</p>
-                        <p>Inget bgt waktu Zen masih ada aplikasi aku juga sempet langganan tapi ga aku gunain dengan baik :( Waktu itu aku masih kepikiran maaaiiiinnn aja sampe akhirnya masa berlanggananya habis. After ketolak SNBP ada kali ya sedihnya bgt bgt sampe berhari-hari dan persiapan SNBT aku kurang dari sebulan. Awal-awal cuma catet materi PK PM tanpa latihan soal, terus aku buka playlist literasi sampai fundamentalnya Zenius bener-bener hampir semua aku tonton dan aku catet :D Catetan aku almost dari Zenius semua untuk sub-test PU, PPU, PBM, LitBind, LitBing. Seneng bgt karena tutornya tuh ngajarnya asik! Pake bahasa gaul dan kayak lagi diajarin temen. Enjoy bgt sampe lupa waktu kalo buka Zenius. Bener-bener diajarin dari dasar dan alasan kenapa harus belajar tiap sub-test sampai ke hal-hal detail ada semua, keren bgt. Beneran seneng bgt pernah belajar bareng Zen dan agak menyesal waktu itu sempet kebanyakan main, tapi thank you yaa Zenius sudah bantu aku capai salah satu mimpi aku </p>
+                        <p>Inget bgt waktu Zen masih ada aplikasi aku juga sempet langganan tapi ga aku gunain dengan
+                            baik :( Waktu itu aku masih kepikiran maaaiiiinnn aja sampe akhirnya masa berlanggananya
+                            habis. After ketolak SNBP ada kali ya sedihnya bgt bgt sampe berhari-hari dan persiapan SNBT
+                            aku kurang dari sebulan. Awal-awal cuma catet materi PK PM tanpa latihan soal, terus aku
+                            buka playlist literasi sampai fundamentalnya Zenius bener-bener hampir semua aku tonton dan
+                            aku catet :D Catetan aku almost dari Zenius semua untuk sub-test PU, PPU, PBM, LitBind,
+                            LitBing. Seneng bgt karena tutornya tuh ngajarnya asik! Pake bahasa gaul dan kayak lagi
+                            diajarin temen. Enjoy bgt sampe lupa waktu kalo buka Zenius. Bener-bener diajarin dari dasar
+                            dan alasan kenapa harus belajar tiap sub-test sampai ke hal-hal detail ada semua, keren bgt.
+                            Beneran seneng bgt pernah belajar bareng Zen dan agak menyesal waktu itu sempet kebanyakan
+                            main, tapi thank you yaa Zenius sudah bantu aku capai salah satu mimpi aku </p>
                     </div>
                     <div class="testimoni">
                         <h3>Khansa Maghfirah Haris</h3>
                         <p>Universitas Sumatera Utara - Manajemen bisnis</p>
-                        <p>Bukan cuman aku bahkan satu keluargaku itu user Zenius. Dua orang kakak aku yang belajar di Zenius lulus ke kedokteran USU dan kedokteran gigi USU, aku sendiri lulus ke manajemen USU tahun ini. Pengalaman kami pakai Zenius dari masa sekolah adalah Zenius itu bukan cuman ngajarin sekadar pelajaran sekolah, tapi juga membentuk pola pikir kita, dari yang awalnya pelajar biasa jadi punya mindset seorang mahasiswa. Jujur belajar di Zenius itu awet bangett ilmunya, kita diajarin dari konsep dasar bukan carcep (cara cepat) atau hapalan yang panjang2. Rasanya setiap habis belajar di Zenius itu mau belajar lagi lagi dan lagi, ilmunya ga pernah dapat di tempat lain, cuman di Zenius aku jadi suka belajar, dan penasaran dengan hal2 baru. Apalagi soal-soal dan tryoutnya, aku selalu ga bosen2 bahas soal di Zenius, soal-soalnya hots dan nantangin banget. Pencapaian nilai aku meningkat drastis waktu belajar di Zenius, ga bimbel di mana pun dari smp, tapi aku selalu dapat peringkat tertinggi di kelas maupun di sekolah. Kita diajarkan pemahaman dan pentingnya kita tau ilmu2 yang diajarkan ke kita, bukan cuman untuk sekolah tapi juga untuk masa depan kita. Tutor2 nya asli seru dan jago2 banget ngajarin, the real berkualitas, belajar mandiri jadi lebih enjoy tapi daging semua yang didapat. Makasih banget buat Zenius udah nemenin masa sekolahku, gak pernah nyesel belajar di Zenius, dan jadi rekomendasi banget untuk kamu yang mau jadi pelajar cerdas dan berkualitas ❤❤❤✨</p>
+                        <p>Bukan cuman aku bahkan satu keluargaku itu user Zenius. Dua orang kakak aku yang belajar di
+                            Zenius lulus ke kedokteran USU dan kedokteran gigi USU, aku sendiri lulus ke manajemen USU
+                            tahun ini. Pengalaman kami pakai Zenius dari masa sekolah adalah Zenius itu bukan cuman
+                            ngajarin sekadar pelajaran sekolah, tapi juga membentuk pola pikir kita, dari yang awalnya
+                            pelajar biasa jadi punya mindset seorang mahasiswa. Jujur belajar di Zenius itu awet bangett
+                            ilmunya, kita diajarin dari konsep dasar bukan carcep (cara cepat) atau hapalan yang
+                            panjang2. Rasanya setiap habis belajar di Zenius itu mau belajar lagi lagi dan lagi, ilmunya
+                            ga pernah dapat di tempat lain, cuman di Zenius aku jadi suka belajar, dan penasaran dengan
+                            hal2 baru. Apalagi soal-soal dan tryoutnya, aku selalu ga bosen2 bahas soal di Zenius,
+                            soal-soalnya hots dan nantangin banget. Pencapaian nilai aku meningkat drastis waktu belajar
+                            di Zenius, ga bimbel di mana pun dari smp, tapi aku selalu dapat peringkat tertinggi di
+                            kelas maupun di sekolah. Kita diajarkan pemahaman dan pentingnya kita tau ilmu2 yang
+                            diajarkan ke kita, bukan cuman untuk sekolah tapi juga untuk masa depan kita. Tutor2 nya
+                            asli seru dan jago2 banget ngajarin, the real berkualitas, belajar mandiri jadi lebih enjoy
+                            tapi daging semua yang didapat. Makasih banget buat Zenius udah nemenin masa sekolahku, gak
+                            pernah nyesel belajar di Zenius, dan jadi rekomendasi banget untuk kamu yang mau jadi
+                            pelajar cerdas dan berkualitas ❤❤❤✨</p>
                     </div>
                     <div class="testimoni">
                         <h3>Fabiola Icasia Rahmah</h3>
                         <p>Universitas Gadjah Mada - Teknik Infrastruktur Lingkungan</p>
-                        <p>i kelas 12 awal aku memutuskan buat join Zenius di program NgeButZ x Zenius. FYI dari dulu aku gak suka sama yang namanya belajar, aku cuma belajar SKS aja kalau ada ujian semester, kalau ulangan harian kadang malah gak belajar. Setelah join Zenius, aku rasa belajar jadi seruu. Contohnya dari dulu aku gak suka sama pelajaran biologi, bahkan kalau bisa di kelas 11 aku gak ambil paket yang ada pelajaran biologi (tapi sayangnya di sekolahku gak ada). Akhirnya aku harus menjalankan masa SMA ku terutama di kelas 10 dan 11 untuk belajar biologi walaupun gak suka, soal nilai jangan ditanya tiap ulangan harian aja gak pernah belajar, pasti lah di bawah KKM wkwkwk, padahal untuk pelajaran lain (fisika, kimia) masih oke oke aja. Waktu di kelas 12 mulai lah belajar lewat Zenius dan ternyata aku jadi suka biologi karena penjelasan di Zenius tuh runtut terus kita bisa kilas balik kenapa sih ini bisa ada, apa gunanya kita belajar ini, dan yang bikin aku kagum ada semua hal itu terkoneksi... dari sini sih aku jadi suka belajar khususnya biologi.. dan saat pertama kali aku ulangan biologi di kelas 12... aku dapet nilai terbesar di kelas, diriku aja heran banget apalagi teman-teman sekelasku. pokoknya Zenius tuh bikin aku jadi suka belajar, semoga semangat belajar ini bisa terus ada dalam diriku... thanks Zenius 🙌</p>
+                        <p>i kelas 12 awal aku memutuskan buat join Zenius di program NgeButZ x Zenius. FYI dari dulu
+                            aku gak suka sama yang namanya belajar, aku cuma belajar SKS aja kalau ada ujian semester,
+                            kalau ulangan harian kadang malah gak belajar. Setelah join Zenius, aku rasa belajar jadi
+                            seruu. Contohnya dari dulu aku gak suka sama pelajaran biologi, bahkan kalau bisa di kelas
+                            11 aku gak ambil paket yang ada pelajaran biologi (tapi sayangnya di sekolahku gak ada).
+                            Akhirnya aku harus menjalankan masa SMA ku terutama di kelas 10 dan 11 untuk belajar biologi
+                            walaupun gak suka, soal nilai jangan ditanya tiap ulangan harian aja gak pernah belajar,
+                            pasti lah di bawah KKM wkwkwk, padahal untuk pelajaran lain (fisika, kimia) masih oke oke
+                            aja. Waktu di kelas 12 mulai lah belajar lewat Zenius dan ternyata aku jadi suka biologi
+                            karena penjelasan di Zenius tuh runtut terus kita bisa kilas balik kenapa sih ini bisa ada,
+                            apa gunanya kita belajar ini, dan yang bikin aku kagum ada semua hal itu terkoneksi... dari
+                            sini sih aku jadi suka belajar khususnya biologi.. dan saat pertama kali aku ulangan biologi
+                            di kelas 12... aku dapet nilai terbesar di kelas, diriku aja heran banget apalagi
+                            teman-teman sekelasku. pokoknya Zenius tuh bikin aku jadi suka belajar, semoga semangat
+                            belajar ini bisa terus ada dalam diriku... thanks Zenius 🙌</p>
                     </div>
                     <div class="testimoni">
                         <h3>Kimmi</h3>
                         <p>Universitas Tanjungpura - Kedokteran</p>
-                        <p>First of all aku mau bilang terima kasih duluu buat Zen, masa-masa gap year aku jadi lebih terarah & aku jadi bisa perbaikin cara belajar akuu. Sedikit yapping, dulu aku tau Zen tuh dari kakak aku yang pake Zen jugaa, aku minjem akunnya buat belajar biologi, naahh jujur abis belajar dari Zen terus ngerjain latsolnya aku langsung kayak anjaayy master banget gua 😭, semua soal tentang materi itu aku bisa babat habis, gacorr emangg Zen. Di awal gap year rasanyaa clueless harus gimana, teruss kakak aku bilang Zenius comeback. Teruss aku langsung beli yang premium setahun. Langsung deh tuh gass marathon playlist UTBK Zenius. Mulai dari situ aku nyadar kalo fondasi sengaruh itu buat belajarr. Soalnya dari dulu aku belajar yaa langsung ke materi yang bakal untuk ulangan & terpaku sama rumus. Kalo sekarang aku udah bisa ga terpaku sama rumus jadi bisa ngerjain soal walaupun materinya udah samar-samar gituu. Kurang lebih setahun akuu belajarr samaa Zenn + ngebutz, comboo inii ngubah cara pandang aku buaatt belajaarr, yang tadinyaa akuu belajar buat tes ajaa, sekarang aku belajar buat dipake seterusnyaa. Setelah bangun - makan - belajar - makan - mandi - belajar - tidur selama setahun ditemenin sama Zen akhirnya aku lolos utbk tahunn inii YEEEYYY, tebak di manaa... DI FK UNTAN 😭😭 setelah dua kali nolak aku akhirnya dia nerima aku plss!!!! Thankk youu Zenn udah nemenin masa masa gap akuu, sekarang aku masih & selalu rekomendasiin Zen buat temen-temen aku yang mau UTBK. Ga kebayang kalo ga tau Zen comeback bakal gimana setahun kemaren 😔 beruntung bisa kenal Zen & tutor-tutor Zen. SAYANG BANGET SAMA ZENN, LOVV LOOVV 🫶🏻🫶🏻🫶🏻🫶🏻🫶🏻</p>
+                        <p>First of all aku mau bilang terima kasih duluu buat Zen, masa-masa gap year aku jadi lebih
+                            terarah & aku jadi bisa perbaikin cara belajar akuu. Sedikit yapping, dulu aku tau Zen tuh
+                            dari kakak aku yang pake Zen jugaa, aku minjem akunnya buat belajar biologi, naahh jujur
+                            abis belajar dari Zen terus ngerjain latsolnya aku langsung kayak anjaayy master banget gua
+                            😭, semua soal tentang materi itu aku bisa babat habis, gacorr emangg Zen. Di awal gap year
+                            rasanyaa clueless harus gimana, teruss kakak aku bilang Zenius comeback. Teruss aku langsung
+                            beli yang premium setahun. Langsung deh tuh gass marathon playlist UTBK Zenius. Mulai dari
+                            situ aku nyadar kalo fondasi sengaruh itu buat belajarr. Soalnya dari dulu aku belajar yaa
+                            langsung ke materi yang bakal untuk ulangan & terpaku sama rumus. Kalo sekarang aku udah
+                            bisa ga terpaku sama rumus jadi bisa ngerjain soal walaupun materinya udah samar-samar
+                            gituu. Kurang lebih setahun akuu belajarr samaa Zenn + ngebutz, comboo inii ngubah cara
+                            pandang aku buaatt belajaarr, yang tadinyaa akuu belajar buat tes ajaa, sekarang aku belajar
+                            buat dipake seterusnyaa. Setelah bangun - makan - belajar - makan - mandi - belajar - tidur
+                            selama setahun ditemenin sama Zen akhirnya aku lolos utbk tahunn inii YEEEYYY, tebak di
+                            manaa... DI FK UNTAN 😭😭 setelah dua kali nolak aku akhirnya dia nerima aku plss!!!! Thankk
+                            youu Zenn udah nemenin masa masa gap akuu, sekarang aku masih & selalu rekomendasiin Zen
+                            buat temen-temen aku yang mau UTBK. Ga kebayang kalo ga tau Zen comeback bakal gimana
+                            setahun kemaren 😔 beruntung bisa kenal Zen & tutor-tutor Zen. SAYANG BANGET SAMA ZENN, LOVV
+                            LOOVV 🫶🏻🫶🏻🫶🏻🫶🏻🫶🏻</p>
                     </div>
                     <div class="testimoni">
                         <h3>Justine Erdjie</h3>
                         <p>Universitas Pembangunan Nasional “Veteran” Jawa Timur - Hukum</p>
-                        <p>Menurutku worth it BANGET!! sampe aku rekomendasiin ke teman2 pas lagi perjuangan bareng buat UTBK, PARAH SIH ZEN GA ADA OBENG. Aku kalau belajar itu tonton recordnya dulu terus ulangin tapi caranya diskip-skip buat liat apa yang perlu dicatat, dan enaknya di Zen itu mereka recordnya jernih PWOLL, dan jelas apa yang dijelasin sama yang ditulis ga melenceng. Habis itu aku baru cari apa yang ga aku ngerti dan pasti di ZEN LAGII CARINYAA, KAYA UDAH SEKOMPLIT ITUUUU. Apalagi kalau udah belajar sama Ka Butz, Ka Uti, Ka Insiii, AKKK ITU SERU BNGTT, udah deh itu ajaa, TERIMA KASIH ZENNN UDAH BANTU ANAK GAGAL INI YANG KETOLAK 9 JALUR PTN DI TAHUN KEMARIN.</p>
+                        <p>Menurutku worth it BANGET!! sampe aku rekomendasiin ke teman2 pas lagi perjuangan bareng buat
+                            UTBK, PARAH SIH ZEN GA ADA OBENG. Aku kalau belajar itu tonton recordnya dulu terus ulangin
+                            tapi caranya diskip-skip buat liat apa yang perlu dicatat, dan enaknya di Zen itu mereka
+                            recordnya jernih PWOLL, dan jelas apa yang dijelasin sama yang ditulis ga melenceng. Habis
+                            itu aku baru cari apa yang ga aku ngerti dan pasti di ZEN LAGII CARINYAA, KAYA UDAH
+                            SEKOMPLIT ITUUUU. Apalagi kalau udah belajar sama Ka Butz, Ka Uti, Ka Insiii, AKKK ITU SERU
+                            BNGTT, udah deh itu ajaa, TERIMA KASIH ZENNN UDAH BANTU ANAK GAGAL INI YANG KETOLAK 9 JALUR
+                            PTN DI TAHUN KEMARIN.</p>
                     </div>
                     <div class="testimoni">
                         <h3>Abdul Hafiz Al Fahrezi</h3>
                         <p>IPB University - Ekonomi Sumberdaya dan Lingkungan</p>
-                        <p>Di kelas X gua punya mimpi untuk berkuliah di kampus top 5. Gua sadar gua ngga bisa ngandelin jalur SNBP karena gua rasa itu bukan jalan gua, jadi sejak saat itu mulai fokus belajar siapin TKA dan UTBK. Di situlah gua menemukan Zenius. Yang bikin Zen beda adalah Zen selalu to the point dan nggak bertele-tele. Zenius pernah bikin nilai UH Kimia gua selama kelas 10 selalu perfect. Waktu di kelas XI gua tiba-tiba ditunjuk ikut OSK Biologi yang saat itu gak gua dalami. Tapi selama 2 bulan gua enjoy banget belajar biologi kayak didongengin aja wkwk (GG Bang Pras). Walau belum lolos saat itu, gua sangat bersyukur karena gua jadi menemukan passion di bidang lingkungan hidup. Sampai di kelas XII gua sedih denger Zen tutup sementara.... tapi ketika Zen balik tanpa pikir panjang gua langsung langganan lagi. Gua sangat terbantu dengan tracker materi yang disediain Zen. Banyak banget pandangan baru ketika belajar math di Zenius rasanya yang awalnya di sekolah gak nyambung langsung disambungin sama Zen (Bang Sabda panutan🫡). Dan akhir perjuangan, gua lulus UTBK di Ekonomi Sumberdaya dan Lingkungan - IPB. Terima kasih banyak buat Zen yang udah nemenin selama 3 tahun terakhir! Bahkan, saat ini gua masih langganan Zen untuk persiapan mata kuliah Mafiki dasar di semester 1 nanti, hehe. Akhir kata ILY ZEN! Terus jadi platform yang bikin cerdas beneran ya!</p>
-                    </div>   
+                        <p>Di kelas X gua punya mimpi untuk berkuliah di kampus top 5. Gua sadar gua ngga bisa ngandelin
+                            jalur SNBP karena gua rasa itu bukan jalan gua, jadi sejak saat itu mulai fokus belajar
+                            siapin TKA dan UTBK. Di situlah gua menemukan Zenius. Yang bikin Zen beda adalah Zen selalu
+                            to the point dan nggak bertele-tele. Zenius pernah bikin nilai UH Kimia gua selama kelas 10
+                            selalu perfect. Waktu di kelas XI gua tiba-tiba ditunjuk ikut OSK Biologi yang saat itu gak
+                            gua dalami. Tapi selama 2 bulan gua enjoy banget belajar biologi kayak didongengin aja wkwk
+                            (GG Bang Pras). Walau belum lolos saat itu, gua sangat bersyukur karena gua jadi menemukan
+                            passion di bidang lingkungan hidup. Sampai di kelas XII gua sedih denger Zen tutup
+                            sementara.... tapi ketika Zen balik tanpa pikir panjang gua langsung langganan lagi. Gua
+                            sangat terbantu dengan tracker materi yang disediain Zen. Banyak banget pandangan baru
+                            ketika belajar math di Zenius rasanya yang awalnya di sekolah gak nyambung langsung
+                            disambungin sama Zen (Bang Sabda panutan🫡). Dan akhir perjuangan, gua lulus UTBK di Ekonomi
+                            Sumberdaya dan Lingkungan - IPB. Terima kasih banyak buat Zen yang udah nemenin selama 3
+                            tahun terakhir! Bahkan, saat ini gua masih langganan Zen untuk persiapan mata kuliah Mafiki
+                            dasar di semester 1 nanti, hehe. Akhir kata ILY ZEN! Terus jadi platform yang bikin cerdas
+                            beneran ya!</p>
+                    </div>
                     <div class="testimoni">
                         <h3>Raihani Sofia</h3>
                         <p>Universitas Andalas - Kedokteran</p>
-                        <p>Momen gue bertemu Zenius, gue jadi menemukan nikmatnya belajar dengan tujuan untuk memudahkan kehidupan gue sendiri. Gue ngga paham ya gimana caranya Zenius bisa ngasih “life lesson” lewat belajar Matematika, Kimia, Fisika, dll. Secara tutornya, nih, iya sih bahas matematika, tapi bisa ngalor ngidul dari A-Z nyambung ke Biologi lah atau Kimia lah. Mereka menyampaikan materi dengan cara bercerita, yang bikin lu belajar serasa ngga belajar. Alias jadi seru parah dan nagih. Gongnya, moment gue waktu pandemi, isu-isunya murid Indonesia ngalamin learning loss, tapi gue ga relate sama sekali karena justru gue jadi semangat belajar walau ga di sekolah, alias pake Zenius. Akhirnya keterusan sampe SMA (semoga berlanjut sampai akhir hayat wkwk). Mindset gue terhadap belajar makin bagus karena makin dipoles. At the end, gue jadi mahasiswa Kedokteran!!! Thank you Zenius! Gue dateng dengan ekspektasi nilai 100 di ujian, lalu pulang dengan pelajaran hidup dengan segambreng 'bingkisan' nilai 100.</p>
-                    </div>               
+                        <p>Momen gue bertemu Zenius, gue jadi menemukan nikmatnya belajar dengan tujuan untuk memudahkan
+                            kehidupan gue sendiri. Gue ngga paham ya gimana caranya Zenius bisa ngasih “life lesson”
+                            lewat belajar Matematika, Kimia, Fisika, dll. Secara tutornya, nih, iya sih bahas
+                            matematika, tapi bisa ngalor ngidul dari A-Z nyambung ke Biologi lah atau Kimia lah. Mereka
+                            menyampaikan materi dengan cara bercerita, yang bikin lu belajar serasa ngga belajar. Alias
+                            jadi seru parah dan nagih. Gongnya, moment gue waktu pandemi, isu-isunya murid Indonesia
+                            ngalamin learning loss, tapi gue ga relate sama sekali karena justru gue jadi semangat
+                            belajar walau ga di sekolah, alias pake Zenius. Akhirnya keterusan sampe SMA (semoga
+                            berlanjut sampai akhir hayat wkwk). Mindset gue terhadap belajar makin bagus karena makin
+                            dipoles. At the end, gue jadi mahasiswa Kedokteran!!! Thank you Zenius! Gue dateng dengan
+                            ekspektasi nilai 100 di ujian, lalu pulang dengan pelajaran hidup dengan segambreng
+                            'bingkisan' nilai 100.</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -213,202 +321,201 @@ Plus, ribuan latihan soal, termasuk soal-soal tahun lalu, biar kamu siap tempur!
         <h1>Beda Free vs Premium? Nih, biar gak bingung</h1>
 
         <table>
-        <thead>
-            <tr>
-            <th>Benefits</th>
-            <th class="center">Free</th>
-            <th class="center premium">Premium</th>
-            </tr>
-        </thead>
+            <thead>
+                <tr>
+                    <th>Benefits</th>
+                    <th class="center">Free</th>
+                    <th class="center premium">Premium</th>
+                </tr>
+            </thead>
 
-        <tbody>
-            <tr>
-            <td>Materi Zenius Learning</td>
-            <td class="center check">✔</td>
-            <td class="center premium check">✔</td>
-            </tr>
+            <tbody>
+                <tr>
+                    <td>Materi Zenius Learning</td>
+                    <td class="center check">✔</td>
+                    <td class="center premium check">✔</td>
+                </tr>
 
-            <tr>
-            <td>Video materi (UTBK, TKA, Sekolah)</td>
-            <td class="center limited">Limited access</td>
-            <td class="center premium check">✔</td>
-            </tr>
+                <tr>
+                    <td>Video materi (UTBK, TKA, Sekolah)</td>
+                    <td class="center limited">Limited access</td>
+                    <td class="center premium check">✔</td>
+                </tr>
 
-            <tr>
-            <td>Latihan soal (UTBK, TKA, Sekolah)</td>
-            <td class="center limited">Limited access</td>
-            <td class="center premium check">✔</td>
-            </tr>
+                <tr>
+                    <td>Latihan soal (UTBK, TKA, Sekolah)</td>
+                    <td class="center limited">Limited access</td>
+                    <td class="center premium check">✔</td>
+                </tr>
 
-            <tr>
-            <td>Zencore</td>
-            <td class="center limited">Limited access</td>
-            <td class="center premium check">✔</td>
-            </tr>
+                <tr>
+                    <td>Zencore</td>
+                    <td class="center limited">Limited access</td>
+                    <td class="center premium check">✔</td>
+                </tr>
 
-            <tr>
-            <td>Kunci jawaban & pembahasan soal</td>
-            <td class="center cross">✖</td>
-            <td class="center premium check">✔</td>
-            </tr>
+                <tr>
+                    <td>Kunci jawaban & pembahasan soal</td>
+                    <td class="center cross">✖</td>
+                    <td class="center premium check">✔</td>
+                </tr>
 
-            <tr>
-            <td>Try Out TKA & UTBK tiap bulan</td>
-            <td class="center cross">✖</td>
-            <td class="center premium check">✔</td>
-            </tr>
-        </tbody>
+                <tr>
+                    <td>Try Out TKA & UTBK tiap bulan</td>
+                    <td class="center cross">✖</td>
+                    <td class="center premium check">✔</td>
+                </tr>
+            </tbody>
         </table>
 
-</div>
-
-    <section class="pricing-section" id="beli-paket">
-        <h1>Upgrade cara belajar kamu</h1>
-        <p>Video konsep, latihan adaptif, Try Out rutin, semua ada di OutLook Premium. Mulai sekarang!</p>
-
-        <div class="pricing-cards">
-
-            <!-- 1 BULAN -->
-            <div class="card">
-            <h3>1 Bulan</h3>
-            <div class="price-box">
-                <div class="price">Rp 175.000</div>
-                <div class="old-price">Rp 200.000</div>
-                <div class="save">Hemat 13%</div>
-                <div class="per-day">Rp 5.645 / hari</div>
-            </div>
-                <a href="BeliPaket.html?paket=1">Beli Paket</a>
-            </div>
-
-            <!-- 3 BULAN -->
-            <div class="card">
-            <h3>3 Bulan</h3>
-            <div class="price-box">
-                <div class="price">Rp 225.000</div>
-                <div class="old-price">Rp 300.000</div>
-                <div class="save">Hemat 25%</div>
-                <div class="per-day">Rp 2.419 / hari</div>
-            </div>
-                <a href="BeliPaket.html?paket=3">Beli Paket</a>
-            </div>
-
-            <!-- 6 BULAN -->
-            <div class="card">
-            <h3>6 Bulan</h3>
-            <div class="price-box">
-                <div class="price">Rp 335.000</div>
-                <div class="old-price">Rp 450.000</div>
-                <div class="save">Hemat 26%</div>
-                <div class="per-day">Rp 1.801 / hari</div>
-            </div>
-                <a href="BeliPaket.html?paket=6">Beli Paket</a>
-            </div>
-
-            <!-- 9 BULAN -->
-            <div class="card">
-            <h3>9 Bulan</h3>
-            <div class="price-box">
-                <div class="price">Rp 425.000</div>
-                <div class="old-price">Rp 550.000</div>
-                <div class="save">Hemat 23%</div>
-                <div class="per-day">Rp 1.523 / hari</div>
-            </div>
-                <a href="BeliPaket.html?paket=9">Beli Paket</a>
-            </div>
-
-            <!-- 12 BULAN -->
-            <div class="card best">
-            <div class="badge">BEST VALUE</div>
-            <h3>12 Bulan</h3>
-            <div class="price-box">
-                <div class="price">Rp 450.000</div>
-                <div class="old-price">Rp 600.000</div>
-                <div class="save">Hemat 25%</div>
-                <div class="per-day">Rp 1.210 / hari</div>
-            </div>
-                <a href="BeliPaket.html?paket=12">Beli Paket</a>
-            </div>
         </div>
+
+        <section class="pricing-section" id="beli-paket">
+            <h1>Upgrade cara belajar kamu</h1>
+            <p>Video konsep, latihan adaptif, Try Out rutin, semua ada di OutLook Premium. Mulai sekarang!</p>
+
+            <div class="pricing-cards">
+
+                <!-- 1 BULAN -->
+                <div class="card">
+                    <h3>1 Bulan</h3>
+                    <div class="price-box">
+                        <div class="price">Rp 175.000</div>
+                        <div class="old-price">Rp 200.000</div>
+                        <div class="save">Hemat 13%</div>
+                        <div class="per-day">Rp 5.645 / hari</div>
+                    </div>
+                    <a href="BeliPaket.html?paket=1">Beli Paket</a>
+                </div>
+
+                <!-- 3 BULAN -->
+                <div class="card">
+                    <h3>3 Bulan</h3>
+                    <div class="price-box">
+                        <div class="price">Rp 225.000</div>
+                        <div class="old-price">Rp 300.000</div>
+                        <div class="save">Hemat 25%</div>
+                        <div class="per-day">Rp 2.419 / hari</div>
+                    </div>
+                    <a href="BeliPaket.html?paket=3">Beli Paket</a>
+                </div>
+
+                <!-- 6 BULAN -->
+                <div class="card">
+                    <h3>6 Bulan</h3>
+                    <div class="price-box">
+                        <div class="price">Rp 335.000</div>
+                        <div class="old-price">Rp 450.000</div>
+                        <div class="save">Hemat 26%</div>
+                        <div class="per-day">Rp 1.801 / hari</div>
+                    </div>
+                    <a href="BeliPaket.html?paket=6">Beli Paket</a>
+                </div>
+
+                <!-- 9 BULAN -->
+                <div class="card">
+                    <h3>9 Bulan</h3>
+                    <div class="price-box">
+                        <div class="price">Rp 425.000</div>
+                        <div class="old-price">Rp 550.000</div>
+                        <div class="save">Hemat 23%</div>
+                        <div class="per-day">Rp 1.523 / hari</div>
+                    </div>
+                    <a href="BeliPaket.html?paket=9">Beli Paket</a>
+                </div>
+
+                <!-- 12 BULAN -->
+                <div class="card best">
+                    <div class="badge">BEST VALUE</div>
+                    <h3>12 Bulan</h3>
+                    <div class="price-box">
+                        <div class="price">Rp 450.000</div>
+                        <div class="old-price">Rp 600.000</div>
+                        <div class="save">Hemat 25%</div>
+                        <div class="per-day">Rp 1.210 / hari</div>
+                    </div>
+                    <a href="BeliPaket.html?paket=12">Beli Paket</a>
+                </div>
+            </div>
 
         </section>
     </main>
     <!-- akhir main -->
 
     <section class="section" id="faq">
-    <div class="container">
-        <h2>FAQ</h2>
+        <div class="container">
+            <h2>FAQ</h2>
 
-        <div class="faq-item">
-            <input type="checkbox" id="faq1">
-            <label for="faq1">Apa itu OutLook Operation?</label>
-            <p>Platform belajar online yang bantu kamu ngerti konsep, bukan cuma hafal.</p>
+            <div class="faq-item">
+                <input type="checkbox" id="faq1">
+                <label for="faq1">Apa itu OutLook Operation?</label>
+                <p>Platform belajar online yang bantu kamu ngerti konsep, bukan cuma hafal.</p>
+            </div>
+
+            <div class="faq-item">
+                <input type="checkbox" id="faq2">
+                <label for="faq2">Apakah gratis?</label>
+                <p>Ada versi gratis, tapi fitur lengkap ada di premium.</p>
+            </div>
+
+            <div class="faq-item">
+                <input type="checkbox" id="faq3">
+                <label for="faq3">Apakah cocok untuk UTBK?</label>
+                <p>Sangat cocok karena soal dan sistemnya mirip UTBK asli.</p>
+            </div>
+
         </div>
-
-        <div class="faq-item">
-            <input type="checkbox" id="faq2">
-            <label for="faq2">Apakah gratis?</label>
-            <p>Ada versi gratis, tapi fitur lengkap ada di premium.</p>
-        </div>
-
-        <div class="faq-item">
-            <input type="checkbox" id="faq3">
-            <label for="faq3">Apakah cocok untuk UTBK?</label>
-            <p>Sangat cocok karena soal dan sistemnya mirip UTBK asli.</p>
-        </div>
-
-    </div>
-</section>
+    </section>
 
 
     <!-- Footer -->
-        <footer class="footer">
+    <footer class="footer">
+        <div class="footer-top">
             <!-- kiri -->
             <div class="footer-kiri">
                 <div class="logo">
-                OutLook
-                <span>Operation</span>
+                    <p>&copy; 2026 OutLook<br>Operation</p>
                 </div>
-
                 <div class="tagline">
                     Tempat belajar online<br>
                     yang bikin cerdas beneran
                 </div>
+            </div>
 
-                <!-- kanan -->
-                <div class="footer-kanan">
-                    <div class="footer-col">
+            <!-- kanan -->
+            <div class="footer-kanan">
+                <div class="footer-col">
                     <h4>Social Media</h4>
                     <ul>
-                        <li>Instagram</li>
-                        <li>X (Twitter)</li>
-                        <li>Youtube</li>
+                        <li>Instagram<br></li>
+                        <li>X (Twitter)<br></li>
+                        <li>Youtube<br></li>
                         <li>TikTok</li>
                     </ul>
-                    </div>
+                </div>
 
-                    <div class="footer-col">
+                <div class="footer-col">
                     <h4>Company</h4>
                     <ul>
-                        <li>Kontak Kami</li>
-                        <li>Tentang Kami</li>
-                        <li>Testimoni</li>
+                        <li>Kontak Kami<br></li>
+                        <li>Tentang Kami<br></li>
+                        <li>Testimoni<br></li>
                         <li>Blog</li>
                     </ul>
-                    </div>
+                </div>
 
-                    <div class="footer-col">
+                <div class="footer-col">
                     <h4>Bantuan & Panduan</h4>
                     <ul>
-                        <li>Kebijakan Privasi</li>
-                        <li>Ketentuan Penggunaan</li>
+                        <li>Kebijakan Privasi<br></li>
+                        <li>Ketentuan Penggunaan<br></li>
                         <li>Bantuan</li>
                     </ul>
-                    </div>
-
                 </div>
-                    <p>&copy; 2026 OutLook Operation</p>
-                </div>
-        </footer>
-        <script src="proses.js"></script>
+            </div>
+        </div>
+    </footer>
+    <script src="proses.js"></script>
 </body>
+
 </html>
