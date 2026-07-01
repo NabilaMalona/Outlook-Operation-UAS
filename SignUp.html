@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,11 +10,14 @@
     <!-- Font sama -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
     <!-- HEADER -->
     <header class="navbar">
-        <a href="index.html" class="logo">OutLook <span>Operation</span></a>
+        <a href="index.html">
+            <img src="OutLook Logo.png" alt="Logo" style="height: 75px;">
+        </a>
     </header>
 
     <!-- SIGN UP -->
@@ -32,7 +36,14 @@
                     <label>Email</label>
                     <input type="text" id="Email" placeholder="Masukkan Email">
                 </div>
-
+                <div class="form-group">
+                    <label>Tanggal Lahir</label>
+                    <div class="birthday-group">
+                        <input type="number" id="TglLahir" placeholder="Tanggal" min="1" max="31">
+                        <input type="number" id="BulanLahir" placeholder="Bulan" min="1" max="12">
+                        <input type="number" id="TahunLahir" placeholder="Tahun" min="1900" max="2025">
+                    </div>
+                </div>
                 <div class="form-group">
                     <label>Password</label>
                     <input type="password" placeholder="Masukkan password" required>
@@ -56,8 +67,7 @@
     <footer class="footer">
         <p>&copy; 2026 OutLook Operation</p>
     </footer>
-<script src="javascript/proses.js"></script>
+    <script src="javascript/proses.js"></script>
 </body>
 
 </html>
-

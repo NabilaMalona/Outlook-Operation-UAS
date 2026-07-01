@@ -35,8 +35,8 @@
                 <span></span>
                 <span></span>
             </label>
-            <nav>
-                <ul class="nav-menu">
+            <nav class="nav-menu">
+                <ul>
                     <li><a href="#index" class="active">Home</a></li>
                     <li><a href="#testimoni">Testimoni</a></li>
                     <li><a href="#faq">FAQ</a></li>
@@ -144,7 +144,7 @@
                 </div>
             </div>
 
-            <h2>Unlock semua materi & fitur premium! <a href="BeliPaket.html">Beli Paket</a></h2>
+            <h2>Unlock semua materi & fitur premium! <a href="#beli-paket">Beli Paket</a></h2>
         </section>
 
         <!-- section 3: About -->
@@ -318,9 +318,8 @@
             </div>
         </section>
 
-        <h1>Beda Free vs Premium? Nih, biar gak bingung</h1>
-
         <table>
+            <h1>Beda Free vs Premium? Nih, biar gak bingung</h1>
             <thead>
                 <tr>
                     <th>Benefits</th>
@@ -385,7 +384,7 @@
                         <div class="save">Hemat 13%</div>
                         <div class="per-day">Rp 5.645 / hari</div>
                     </div>
-                    <a href="BeliPaket.html?paket=1">Beli Paket</a>
+                    <button type="button" onclick="beliPaket(1)">Beli Paket</button>
                 </div>
 
                 <!-- 3 BULAN -->
@@ -397,7 +396,7 @@
                         <div class="save">Hemat 25%</div>
                         <div class="per-day">Rp 2.419 / hari</div>
                     </div>
-                    <a href="BeliPaket.html?paket=3">Beli Paket</a>
+                    <button type="button" onclick="beliPaket(3)">Beli Paket</button>
                 </div>
 
                 <!-- 6 BULAN -->
@@ -409,7 +408,7 @@
                         <div class="save">Hemat 26%</div>
                         <div class="per-day">Rp 1.801 / hari</div>
                     </div>
-                    <a href="BeliPaket.html?paket=6">Beli Paket</a>
+                    <button type="button" onclick="beliPaket(6)">Beli Paket</button>
                 </div>
 
                 <!-- 9 BULAN -->
@@ -421,7 +420,7 @@
                         <div class="save">Hemat 23%</div>
                         <div class="per-day">Rp 1.523 / hari</div>
                     </div>
-                    <a href="BeliPaket.html?paket=9">Beli Paket</a>
+                    <button type="button" onclick="beliPaket(9)">Beli Paket</button>
                 </div>
 
                 <!-- 12 BULAN -->
@@ -434,7 +433,7 @@
                         <div class="save">Hemat 25%</div>
                         <div class="per-day">Rp 1.210 / hari</div>
                     </div>
-                    <a href="BeliPaket.html?paket=12">Beli Paket</a>
+                    <button type="button" onclick="beliPaket(12)">Beli Paket</button>
                 </div>
             </div>
 
@@ -515,7 +514,7 @@
             </div>
         </div>
     </footer>
-    <script src="proses.js"></script>
+    <script src="javascript/proses.js"></script>
 </body>
 
 </html>
